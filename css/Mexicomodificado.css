@@ -1,0 +1,381 @@
+@charset "UTF-8";
+body {
+    background-color: whitesmoke;
+}
+
+@font-face {
+    font-family: "Arial";
+    src: url("#FontID0") format(svg)
+}
+
+
+/*lineas estados*/
+
+.str2 {
+    stroke: #37ABC8;
+    stroke-width: 13.25
+}
+
+.str1 {
+    stroke: white;
+    stroke-width: 13.25
+}
+
+.str0 {
+    stroke: white;
+    stroke-width: 13.27
+}
+
+.str3 {
+    stroke: black;
+    stroke-width: 20
+}
+
+.fil10 {
+    fill: none
+}
+
+
+/*Letras Estados*/
+
+.fil7 {
+    fill: black
+}
+
+
+/* Puntos de las capitales*/
+
+.fil8 {
+    fill: Yellow;
+}
+
+.fnt1 {
+    font-weight: normal;
+    font-size: 121.27px;
+    font-family: 'Arial'
+}
+
+.fnt0 {
+    font-weight: normal;
+    font-size: 404.32px;
+    font-family: 'Arial'
+}
+
+
+/* Aqui se encuentras los CSS de los estados ------------------------------------------------------------ */
+
+.BajaCalifornia {
+    fill: #F7DDAA;
+}
+
+.BajaCalifornia:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.BajaCaliforniaSur {
+    fill: #F7DDAA;
+}
+
+.BajaCaliforniaSur:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Durango {
+    fill: #F7DDAA;
+}
+
+.Durango:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Sinaloa {
+    fill: #F7DDAA;
+}
+
+.Sinaloa:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Coahuila {
+    fill: #F7DDAA;
+}
+
+.Coahuila:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Chihuahua {
+    fill: #F7DDAA;
+}
+
+.Chihuahua:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Sonora {
+    fill: #F7DDAA;
+}
+
+.Sonora:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Zacatecas {
+    fill: #F7DDAA;
+}
+
+.Zacatecas:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Nayarit {
+    fill: #F7DDAA;
+}
+
+.Nayarit:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Aguascalientes {
+    fill: #F7DDAA;
+}
+
+.Aguascalientes:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Jalisco {
+    fill: #F7DDAA;
+}
+
+.Jalisco:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Yucatan {
+    fill: #F7DDAA;
+}
+
+.Yucatan:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.SanLuisPotosi {
+    fill: #F7DDAA;
+}
+
+.SanLuisPotosi:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.NuevoLeon {
+    fill: #F7DDAA;
+}
+
+.NuevoLeon:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Michoacan {
+    fill: #F7DDAA;
+}
+
+.Michoacan:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Colima {
+    fill: #F7DDAA;
+}
+
+.Colima:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Guanajuato {
+    fill: #F7DDAA;
+}
+
+.Guanajuato:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Tamaulipas {
+    fill: #F7DDAA;
+}
+
+.Tamaulipas:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Tlaxcala {
+    fill: #F7DDAA;
+}
+
+.Tlaxcala:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Queretaro {
+    fill: #F7DDAA;
+}
+
+.Queretaro:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Guerrero {
+    fill: #F7DDAA;
+}
+
+.Guerrero:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Puebla {
+    fill: #F7DDAA;
+}
+
+.Puebla:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Morelos {
+    fill: #F7DDAA;
+}
+
+.Morelos:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Veracruz {
+    fill: #F7DDAA;
+}
+
+.Veracruz:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Oaxaca {
+    fill: #F7DDAA;
+}
+
+.Oaxaca:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Chiapas {
+    fill: #F7DDAA;
+}
+
+.Chiapas:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Tabasco {
+    fill: #F7DDAA;
+}
+
+.Tabasco:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Campeche {
+    fill: #F7DDAA;
+}
+
+.Campeche:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.QuintanaRoo {
+    fill: #F7DDAA;
+}
+
+.QuintanaRoo:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.DistritoFederal {
+    fill: #F7DDAA;
+}
+
+.DistritoFederal:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Tabasco {
+    fill: #F7DDAA;
+}
+
+.Tabasco:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Toluca {
+    fill: #F7DDAA;
+}
+
+.Toluca:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+.Hidalgo {
+    fill: #F7DDAA;
+}
+
+.Hidalgo:hover {
+    fill: #05167D;
+    cursor: pointer;
+}
+
+
+/*Tamaño Mapa*/
+
+svg {
+    width: 100%;
+    margin-top: 1%;
+    margin-left: 18%;
+    margin-right: 17%;
+}
+
+@media (min-width: 300px) and (max-width: 1200px) {
+    svg {
+        width: 100%;
+        margin-top: 3%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}

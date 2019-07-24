@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bienvenidos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mycss.css">
+    <!--Link footer-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/about.css">
+
+</head>
+
+<body>
+    <nav class="header navbar navbar-expand-lg navbar-light bg-nav sticky-top ">
+        <a class="navbar-brand" href="#"></a>
+        <a href="../pages/index.html"><img src="../img/LogoMexico.png" width="60" height="40"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mr-auto ml-auto">
+                <a class="nav-item nav-link" href="#" style="color: white;">Inicio<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="../pages/mapa.php" style="color: white;">Mapa</a>
+                <a class="nav-item nav-link" href="#about" style="color: white;">Contacto</a>
+            </div>
+        </div>
+    </nav>
+<!-- Aqui comienza el slider -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="imgslider d-block w-100" src="../pages/Slider/images/20.jpg"  alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Slider One Item</h5>
+                    <p>Lorem ipsum dolor sit amet consejctetur adipisicing elit. Animi </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class=" imgslider d-block w-100" src="../pages/Slider/images/10.jpg"  alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Slider Two Item</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Anlum laudantium dignissimos.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="imgslider d-block w-100" src="../pages/Slider/images/30.jpg"  alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Slider Three Item</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi consectetur molesas magnam reiciendis sunt illum laudantium dignissimos.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- Aquie Acba el Slider-->
+    <br>
+    <div class="footerimg">
+
+        <img src="../pages/Slider/images/Inegi.jpg" width="100%"></div>
+    <br>
+    <section id="about">
+        <div class="fondo">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <br>
+                        <img class="rounded mx-auto d-block" id="img" src="../img/administrador.png">
+                        <br>
+                    </div>
+                    <div class="col">
+                        <br>
+                        <h3 id="tutulos">Introduccion</h3>
+
+                        <p id="text">Bienvenido, en este espacio encontraras informacion detallada de los estados méxicanos que podran ayudarte a conocer mas de su estado financiero poblacion entre otros.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <br>
+                    <h3 id="tutulos">Contactanos</h3>
+                    <p id="text">Si tienes algún problema o alguna duda no dudes en contactarnos para nuestro equipo será un honor ayudarte.</p>
+                    <div id="b">
+                        <button type="button" class="button type1" data-toggle="modal" data-target=".bd-example-modal-lg">Contactar</button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="container-all">
+                                        <div class="container-formcontact">
+                                            <img src="" class="">
+                                            <h2 class="title"><strong>Envíanos un</strong> Email</h2>
+                                            <form>
+                                                <label for="nombre">Nombre</label>
+
+                                                <input type="text" name="nombre">
+
+                                                <label for="email">Email</label>
+                                                <input type="email" id="email" name="email">
+                                                <label for="">Mensaje</label>
+                                                <textarea class="form-control" rows="3" id="mensaje" name="mensaje" placeholder="Ingrese su mensaje" data-toggle="tooltip" data-placement="top" title="Ingrese un mensaje"></textarea>
+                                                <br>
+                                                <input type="submit" value="Enviar">
+                                            </form>
+                                        </div>
+
+                                        <div class="container-textcontact">
+                                            <img src="../img/gmail.png" width="25%" style="margin-left: 75%">
+                                            <div class="capa"></div>
+                                            <h1 class="title-description">Lorem ipsum dolor sit amet.</h1>
+                                            <br>
+                                            <p class="text-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum commodi mollitia, eius, nobis fugit, nisi nulla delectus doloremque, dignissimos expedita earum amet accusamus perferendis vitae facilis. Doloribus, molestiae, officiis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                </div>
+                <div class="col">
+                    <br>
+                    <img class="rounded mx-auto d-block" id="img" src="../img/gmail.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <i id="fa" class="fab fa-facebook-f fa-2x"></i>
+
+        <i id="tw" class="fab fa-twitter fa-2x"></i>
+
+        <i id="in" class="fab fa-instagram fa-2x"></i>
+
+        <i id="pi" class="fab fa-pinterest-p fa-2x"></i>
+    </div>
+
+
+    <style>
+
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+
+    <!---Scripts footer-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+</body></html>

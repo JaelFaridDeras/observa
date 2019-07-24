@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+}
+.d-flex {
+    margin: 0px !important;
+}
+#map {
+    width: 130vh;
+}
+#filter {
+    width: 40vh;
+    background-color: #d1d8df;
+    padding: 2% 1% 0px 1%;
+}
+#instructions {
+    background-color: #d1d8df;
+    width: 40vh;
+    padding: 1% 1% 0px 1%;
+}
+.instructions__text, .numbers {
+    font-size: large;
+}
+#numbers {
+    font-size: x-large;
+}
+.list__very-high {
+    background-color: #e40202;
+    padding: 5%;
+    width: 10%;
+    display: inline-flex;
+}
+.list__high {
+    background-color: #f73b02;
+    padding: 5%;
+    width: 10%;
+    display: inline-flex;
+}
+.list__medium {
+    background-color: #f05d08;
+    padding: 5%;
+    width: 10%;
+    display: inline-flex;
+}
+.list__low {
+    background-color: #ffae00;
+    padding: 5%;
+    width: 10%;
+    display: inline-flex;
+}
+.list__very-low {
+    background-color: #ffee00;
+    padding: 5%;
+    width: 10%;
+    display: inline-flex;
+}
+.row {
+    margin-top: 10%;
+} 
+.map-image {
+    width: 100%;
+}
+.accordion {
+    margin-top: 15%;
+}
+#btn-datos {
+    font-weight: normal;
+    font-size: 100%;
+    color: #ffffff;
+}
+.card-header {
+    background-color:#0b799e;
+}
+.btn-info {
+    background-color:#0b799e;
+}

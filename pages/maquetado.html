@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/mapa.css">
+    <link rel="stylesheet" href="../pages/mycss.css"> 
+    <link rel="stylesheet" href="../css/Mexicomodificado.css">
+    <title>Mapa</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-nav sticky-top">
+            <a class="navbar-brand" href="#"></a>
+            <a href="../pages/index.html"><img src="../img/INEGI.png" width="60" height="40"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mr-auto ml-auto">
+            <a class="nav-item nav-link" href="../pages/index.html" style="color: white;">Inicio<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="../pages/mapa.html" style="color: white;">Mapa</a>
+            <a class="nav-item nav-link" href="../pages/about.html" style="color: white;">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="d-flex flex-row bd-highlight mb-3">
+        <div class="align-items-start" id="instructions">
+           <h2 class="instructions__title">Instrucciones</h2><br>
+                <p class="instructions__text"><b id="numbers">1. </b>Llena la seccion de filtro de acuerdo a tus necesidades.</p>
+                <p class="instructions__text"><b id="numbers">2. </b>Observa los resultados en el mapa respecto a su nivel.</p>
+                <p class="instructions__text"><b id="numbers">3. </b>Envia los resultados a tu correo.</p>
+            </p>
+            <!-- Button trigger modal -->
+            <div id="b">
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">
+                    Enviar Información
+                </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalCenterTitle">Enviar Información</h5>
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                         </button>
+                    </div>
+                        <div class="modal-body">
+                            <form>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1">Nombre De La Empresa</label>
+                                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Empresa">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput2">Correo</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="ejemplo@gmail.com">
+                                    </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-info">Enviar</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            <div class="row mx-md-n5">
+                <div class="col px-md-5">
+                    <div class="p-3 border bg-light">
+                        <h3 class ="simbologia__title">Simbología.</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item"><div class="list__very-high"></div>  Muy alto</li>
+                            <li class="list-group-item"><div class="list__high"></div>  Alto</li>
+                            <li class="list-group-item"><div class="list__medium"></div>  Medio</li>
+                            <li class="list-group-item"><div class="list__low"></div>  Bajo</li>
+                            <li class="list-group-item"><div class="list__very-low"></div>  Muy bajo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+            
+        <div class="p-2 bd-highlight" id="filter">
+            <h2 class= "filtro_title">Filtros</h2><br>
+            <p class="instructions__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eius velit maxime, recusandae nam minus totam blanditiis?</p>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button id="btn-datos" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Datos
+                        </button>
+                    </h5>
+                    </div>
+                
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">PIB</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck2">
+                            <label class="custom-control-label" for="customCheck2">Salario Mínimo</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck3">
+                            <label class="custom-control-label" for="customCheck3">Agua Potable</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck4">
+                            <label class="custom-control-label" for="customCheck4">Desempleo</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck5">
+                            <label class="custom-control-label" for="customCheck5">Cargo fiscal</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck6">
+                            <label class="custom-control-label" for="customCheck6">Seguridad</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footermapa" style="">
+        <i id="fa"  class="fab fa-facebook-f fa-2x"></i> 
+        <i id="tw" class="fab fa-twitter fa-2x"></i>
+        <i id="in" class="fab fa-instagram fa-2x"></i>
+        <i id="pi" class="fab fa-pinterest-p fa-2x"></i>
+    </div>     
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+</body>
+</html>
