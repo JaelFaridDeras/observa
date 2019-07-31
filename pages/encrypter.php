@@ -8,7 +8,7 @@ if(password_verify('unipoli', '$2y$10$Jj.C9wyQcTOziMr7kDd5u.NHk9NRyu0Zh/FfpDnzDh
 }
 $dbHost = 'localhost';
 $dbUsername = 'root';
-$dbPassword = 'Ikaros2009';
+$dbPassword = '';
 $dbName = 'observatorio';
 
 $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
