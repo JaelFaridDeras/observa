@@ -24,35 +24,30 @@ body {
     font-size: x-large;
 }
 .list__very-high {
-    background-color: #e40202;
+    background-color: #228B22;
     padding: 5%;
     width: 10%;
     display: inline-flex;
 }
 .list__high {
-    background-color: #f73b02;
+    background-color: #9ACD32;
     padding: 5%;
     width: 10%;
     display: inline-flex;
 }
 .list__medium {
-    background-color: #f05d08;
+    background-color: #FDE441;
     padding: 5%;
     width: 10%;
     display: inline-flex;
 }
 .list__low {
-    background-color: #ffae00;
+    background-color: #DC143C;
     padding: 5%;
     width: 10%;
     display: inline-flex;
 }
-.list__very-low {
-    background-color: #ffee00;
-    padding: 5%;
-    width: 10%;
-    display: inline-flex;
-}
+
 .row {
     margin-top: 10%;
 } 

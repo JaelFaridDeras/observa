@@ -3,7 +3,7 @@ $dbHost = 'localhost';
 $dbUsername = 'root';
 $dbPassword = '';
 $dbName = 'observatorio';
-//Ikaros2009
+
 $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 
 if($db->connect_error){

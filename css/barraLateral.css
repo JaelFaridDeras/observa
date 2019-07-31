@@ -4,12 +4,12 @@ body {
 }
 .menu-icon {
     position: fixed;
-    top: 70px;
-    right: 20px;
+    top: 10px;
+    right: 10px;
     width: 50px;
     height: 44px;
     padding: 4px 8px;
-    background: #262626;
+    background: #12233c;
     box-sizing: border-box;
     cursor: pointer;
     
@@ -35,7 +35,7 @@ body {
     background: linear-gradient(90deg, #096887, #008989);
     transition: .5s;
     padding: 20px;
-    text-align: center;
+    text-align: left;
     box-sizing: border-box;
     opacity: 0.7;
 
