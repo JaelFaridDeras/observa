@@ -24,7 +24,7 @@ function color(num) {
       document.getElementById(estado[i]).style.fill = "#DC143C";
     } else if ((num[i] >= 0) && (num[i] <= 2)) {
       document.getElementById(estado[i]).style.fill = "#FDE441";
-    } else if ((num[i] >= 2.1) && (num[i] <=4)) {
+    } else if ((num[i] >= 2.1) && (num[i] <= 4)) {
       document.getElementById(estado[i]).style.fill = "#9ACD32";
     } else if (num[i] >= 4.1) {
       document.getElementById(estado[i]).style.fill = "#228B22";
@@ -34,7 +34,19 @@ function color(num) {
     }
   }
 
+  for (var j = 0; j < estado.length; j++) {
+    document.getElementById(estado[j]).onmouseover = function () {
+      this.style.fill = '#3271a1'
+    }
+
+    document.getElementById(estado[j]).onmouseout = function () {
+      color(num);
+    }
+  }
+
 }
+
+
 
 
 

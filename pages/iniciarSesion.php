@@ -5,7 +5,7 @@ $contrasenia = $_POST['password'];
 
 $dbHost = 'localhost';
 $dbUsername = 'root';
-$dbPassword = ';
+$dbPassword = 'Ikaros2009';
 $dbName = 'observatorio';
 
 $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);

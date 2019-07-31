@@ -43,12 +43,12 @@ include('getData.php')
         <a href="#"><img src=""></a>
         <ul class="menu">
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="index.html#about">Acerca de Nosotros</a></li>
+            <li><a href="index.html#about">Contacto</a></li>
 
             <div class="row mx-md-n5">
                 <div class="col px-md-5">
                     <div class="p-3 border bg-light">
-                        <h3 style="text-align: center" !important>Simbología</h3>
+                        <h3 style="text-align: center">Simbología</h3>
 
                         <ul class="list-group">
                             <li class="list-group-item">
@@ -3895,7 +3895,8 @@ include('getData.php')
                 </div>
             </div>
         </div>
-        <!-- footer -->
+        <!--
+        --footer--
         <div class="footermapa">
             <i id="fa" class="fab fa-facebook-f fa-2x"></i>
 
@@ -3905,8 +3906,8 @@ include('getData.php')
 
             <i id="pi" class="fab fa-pinterest-p fa-2x"></i>
         </div>
-        <!-- footer -->
-
+        --footer--
+        -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
         <script src="../js/script.js"></script>
