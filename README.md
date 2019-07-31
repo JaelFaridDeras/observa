@@ -21,5 +21,5 @@ Repositorio que contiene el trabajo del equipo de front-end y back-end
 * Importar a servidor local el archivo
 
 ```
-'data.sql'
+'observatorio.sql'
 ```
