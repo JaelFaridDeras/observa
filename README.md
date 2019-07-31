@@ -5,7 +5,7 @@ Repositorio que contiene el trabajo del equipo de front-end y back-end
 ## Pendientes
 
 * Generar cambio de color basado en los datos de la DB
-* Generar un cliente para enviar correos electronicos (tentativo a desaparecer)
+* Crear dirección de correo electronico para el proyecto (Cliente de e-mails abandonado)
 
 ## Instalación
 
