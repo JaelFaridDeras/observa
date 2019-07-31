@@ -8,10 +8,14 @@ Repositorio que contiene el trabajo del equipo de front-end y back-end
 
 ## Instalación
 
-* Editar los datos del archivo
+* Insertar contraseña del servidor en los siguientes archivos
 
 ```
 'dbConfig.php'
+'iniciarSesion.php'
+'modificandoEstados.php'
+'modificarValores.php'
+'mostrandoEstados.php'
 ```
 
 * Importar a servidor local el archivo
